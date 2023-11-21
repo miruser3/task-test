@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 15px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin-right: 20px;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media screen and (min-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
